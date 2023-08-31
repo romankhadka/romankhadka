@@ -1,4 +1,11 @@
-### Hi there 👋
+### Hi there, I'm Roman 👋
+
+Thank you for visiting my page
+
+<p align="center"> 
+  Visitor count<br>
+  <img src="https://profile-counter.glitch.me/sagar-viradiya/count.svg" />
+</p>
 
 [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=romankhadka&theme=dark)](https://git.io/streak-stats)
 
