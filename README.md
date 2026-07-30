@@ -58,6 +58,14 @@ SYSTEMS     Rails · PostgreSQL · Redis · Sidekiq
 INTERESTS   idempotency · async state · partial failure · terminal UI
 ```
 
+### Activity
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/stats-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/stats-light.svg">
+  <img alt="Pull requests opened, pull requests reviewed, commits, and repositories created since 2016, with a 52-week activity sparkline" src="./assets/stats-light.svg" width="100%">
+</picture>
+
 > **Good software should explain itself.** The rest is naming, restraint, and care.
 
 If you try one of these and it breaks, open an issue. I read every one.
