@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="300" viewBox="0 0 1000 300" role="img" aria-labelledby="t d">
+  <title id="t">GitHub activity for romankhadka</title>
+  <desc id="d">2,509 pull requests opened, 2,279 reviewed, 3,851 commits, across 112 repositories since 2016. Updated 2026-07-30.</desc>
+  <defs>
+    <linearGradient id="p" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f7f4ec"/><stop offset="0.55" stop-color="#f1ede3"/><stop offset="1" stop-color="#e8e3d8"/>
+    </linearGradient>
+    <pattern id="g" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1a241f" stroke-width="0.7" opacity="0.09"/>
+    </pattern>
+    <pattern id="m" width="8" height="8" patternUnits="userSpaceOnUse">
+      <path d="M 8 0 L 0 0 0 8" fill="none" stroke="#1a241f" stroke-width="0.35" opacity="0.07"/>
+    </pattern>
+    <pattern id="s" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="3" cy="7" r="0.45" fill="#18201c" opacity="0.14"/>
+      <circle cx="17" cy="3" r="0.35" fill="#18201c" opacity="0.1"/>
+      <circle cx="11" cy="19" r="0.4" fill="#18201c" opacity="0.12"/>
+      <circle cx="22" cy="14" r="0.3" fill="#18201c" opacity="0.09"/>
+    </pattern>
+    <clipPath id="f"><rect x="16" y="16" width="968" height="268" rx="2"/></clipPath>
+  </defs>
+
+  <rect width="1000" height="300" fill="url(#p)"/>
+  <g clip-path="url(#f)">
+    <rect x="16" y="16" width="968" height="268" fill="url(#g)"/>
+    <path d="M 700 -40 L 1040 100 L 1040 340 L 860 340 Z" fill="#d7e5df" opacity="0.5"/>
+    <path d="M 806 -40 L 1040 60 L 1040 340 L 970 340 Z" fill="url(#m)" opacity="0.9"/>
+    <rect width="1000" height="300" fill="url(#s)" opacity="0.55"/>
+  </g>
+  <rect x="16.5" y="16.5" width="967" height="267" rx="2" fill="none" stroke="#18201c" stroke-width="1" opacity="1"/>
+
+  <text x="44" y="53" fill="#18201c" font-family="'Courier New',monospace" font-size="14" letter-spacing="2.6">RK / ACTIVITY</text>
+  <path d="M 218 48 H 296" fill="none" stroke="#18201c" stroke-width="1" opacity="0.7"/>
+  <circle cx="308" cy="48" r="3.5" fill="#c65434"/>
+  <text x="958" y="53" fill="#687069" text-anchor="end" font-family="'Courier New',monospace" font-size="14" letter-spacing="2">SINCE 2016</text>
+
+  <text x="50" y="88" fill="#4e5750" font-family="'Courier New',monospace" font-size="14" letter-spacing="0.5">994 PRs in 2026, 1.46x all of 2025</text>
+
+    <text x="52" y="128" fill="#687069" font-family="'Courier New',monospace" font-size="13" letter-spacing="2.2">PULL REQUESTS</text>
+    <text x="50" y="184" fill="#18201c" font-family="'Iowan Old Style','Palatino Linotype',Palatino,Georgia,serif" font-size="52" letter-spacing="-1.5">2,509</text>
+    <text x="284" y="128" fill="#687069" font-family="'Courier New',monospace" font-size="13" letter-spacing="2.2">REVIEWED</text>
+    <text x="282" y="184" fill="#18201c" font-family="'Iowan Old Style','Palatino Linotype',Palatino,Georgia,serif" font-size="52" letter-spacing="-1.5">2,279</text>
+    <text x="516" y="128" fill="#687069" font-family="'Courier New',monospace" font-size="13" letter-spacing="2.2">COMMITS</text>
+    <text x="514" y="184" fill="#18201c" font-family="'Iowan Old Style','Palatino Linotype',Palatino,Georgia,serif" font-size="52" letter-spacing="-1.5">3,851</text>
+    <text x="748" y="128" fill="#687069" font-family="'Courier New',monospace" font-size="13" letter-spacing="2.2">REPOS CREATED</text>
+    <text x="746" y="184" fill="#18201c" font-family="'Iowan Old Style','Palatino Linotype',Palatino,Georgia,serif" font-size="52" letter-spacing="-1.5">112</text>
+
+  <path d="M 52 248.5 H 948" fill="none" stroke="#18201c" stroke-width="1" opacity="0.28"/>
+  <rect x="52.0" y="236.4" width="15.3" height="11.6" fill="#18201c" opacity="0.55"/><rect x="69.3" y="234.3" width="15.3" height="13.7" fill="#18201c" opacity="0.55"/><rect x="86.5" y="238.8" width="15.3" height="9.2" fill="#18201c" opacity="0.55"/><rect x="103.8" y="238.5" width="15.3" height="9.5" fill="#18201c" opacity="0.55"/><rect x="121.1" y="236.6" width="15.3" height="11.4" fill="#18201c" opacity="0.55"/><rect x="138.3" y="239.8" width="15.3" height="8.2" fill="#18201c" opacity="0.55"/><rect x="155.6" y="239.6" width="15.3" height="8.4" fill="#18201c" opacity="0.55"/><rect x="172.9" y="233.0" width="15.3" height="15.0" fill="#18201c" opacity="0.55"/><rect x="190.2" y="237.3" width="15.3" height="10.7" fill="#18201c" opacity="0.55"/><rect x="207.4" y="233.6" width="15.3" height="14.4" fill="#18201c" opacity="0.55"/><rect x="224.7" y="234.1" width="15.3" height="13.9" fill="#18201c" opacity="0.55"/><rect x="242.0" y="232.3" width="15.3" height="15.7" fill="#18201c" opacity="0.55"/><rect x="259.2" y="235.8" width="15.3" height="12.2" fill="#18201c" opacity="0.55"/><rect x="276.5" y="241.8" width="15.3" height="6.2" fill="#18201c" opacity="0.55"/><rect x="293.8" y="244.1" width="15.3" height="3.9" fill="#18201c" opacity="0.55"/><rect x="311.0" y="236.8" width="15.3" height="11.2" fill="#18201c" opacity="0.55"/><rect x="328.3" y="235.5" width="15.3" height="12.5" fill="#18201c" opacity="0.55"/><rect x="345.6" y="243.3" width="15.3" height="4.7" fill="#18201c" opacity="0.55"/><rect x="362.8" y="242.0" width="15.3" height="6.0" fill="#18201c" opacity="0.55"/><rect x="380.1" y="238.8" width="15.3" height="9.2" fill="#18201c" opacity="0.55"/><rect x="397.4" y="241.1" width="15.3" height="6.9" fill="#18201c" opacity="0.55"/><rect x="414.7" y="246.5" width="15.3" height="1.5" fill="#18201c" opacity="0.55"/><rect x="431.9" y="242.0" width="15.3" height="6.0" fill="#18201c" opacity="0.55"/><rect x="449.2" y="240.7" width="15.3" height="7.3" fill="#18201c" opacity="0.55"/><rect x="466.5" y="238.6" width="15.3" height="9.4" fill="#18201c" opacity="0.55"/><rect x="483.7" y="244.1" width="15.3" height="3.9" fill="#18201c" opacity="0.55"/><rect x="501.0" y="237.3" width="15.3" height="10.7" fill="#18201c" opacity="0.55"/><rect x="518.3" y="240.1" width="15.3" height="7.9" fill="#18201c" opacity="0.55"/><rect x="535.5" y="238.8" width="15.3" height="9.2" fill="#18201c" opacity="0.55"/><rect x="552.8" y="231.3" width="15.3" height="16.7" fill="#18201c" opacity="0.55"/><rect x="570.1" y="214.1" width="15.3" height="33.9" fill="#18201c" opacity="0.55"/><rect x="587.3" y="204.0" width="15.3" height="44.0" fill="#18201c" opacity="0.55"/><rect x="604.6" y="234.3" width="15.3" height="13.7" fill="#18201c" opacity="0.55"/><rect x="621.9" y="235.5" width="15.3" height="12.5" fill="#18201c" opacity="0.55"/><rect x="639.2" y="236.6" width="15.3" height="11.4" fill="#18201c" opacity="0.55"/><rect x="656.4" y="224.8" width="15.3" height="23.2" fill="#18201c" opacity="0.55"/><rect x="673.7" y="229.5" width="15.3" height="18.5" fill="#18201c" opacity="0.55"/><rect x="691.0" y="214.9" width="15.3" height="33.1" fill="#18201c" opacity="0.55"/><rect x="708.2" y="239.4" width="15.3" height="8.6" fill="#18201c" opacity="0.55"/><rect x="725.5" y="240.9" width="15.3" height="7.1" fill="#18201c" opacity="0.55"/><rect x="742.8" y="234.5" width="15.3" height="13.5" fill="#18201c" opacity="0.55"/><rect x="760.0" y="229.5" width="15.3" height="18.5" fill="#18201c" opacity="0.55"/><rect x="777.3" y="242.6" width="15.3" height="5.4" fill="#18201c" opacity="0.55"/><rect x="794.6" y="239.9" width="15.3" height="8.1" fill="#18201c" opacity="0.55"/><rect x="811.8" y="224.0" width="15.3" height="24.0" fill="#18201c" opacity="0.55"/><rect x="829.1" y="222.3" width="15.3" height="25.7" fill="#18201c" opacity="0.55"/><rect x="846.4" y="233.2" width="15.3" height="14.8" fill="#18201c" opacity="0.55"/><rect x="863.7" y="225.5" width="15.3" height="22.5" fill="#18201c" opacity="0.55"/><rect x="880.9" y="226.8" width="15.3" height="21.2" fill="#18201c" opacity="0.55"/><rect x="898.2" y="215.0" width="15.3" height="33.0" fill="#18201c" opacity="0.55"/><rect x="915.5" y="224.6" width="15.3" height="23.4" fill="#18201c" opacity="0.55"/><rect x="932.7" y="228.0" width="15.3" height="20.0" fill="#c65434" opacity="1"/>
+  <text x="52" y="272" fill="#687069" font-family="'Courier New',monospace" font-size="12" letter-spacing="1.6">52 WEEKS &#183; LAST 7 DAYS IN COLOUR</text>
+  <text x="948" y="272" fill="#687069" text-anchor="end" font-family="'Courier New',monospace" font-size="12" letter-spacing="1.6">UPDATED 2026-07-30</text>
+</svg>

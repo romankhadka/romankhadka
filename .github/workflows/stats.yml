@@ -1,0 +1,59 @@
+name: Refresh profile stats
+
+on:
+  schedule:
+    # 06:17 UTC daily. Off the hour on purpose: GitHub queues scheduled jobs at
+    # popular times and drops them under load.
+    - cron: "17 6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-stats
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Require a token that can see private contributions
+        env:
+          STATS_TOKEN: ${{ secrets.STATS_TOKEN }}
+        run: |
+          if [ -z "$STATS_TOKEN" ]; then
+            echo "::error::STATS_TOKEN is not set. The built-in GITHUB_TOKEN cannot read"
+            echo "::error::contributionsCollection across orgs, so the card would silently"
+            echo "::error::publish public-only numbers. Create a classic PAT with the 'repo'"
+            echo "::error::scope and add it as the STATS_TOKEN repository secret."
+            exit 1
+          fi
+
+      - name: Build stat cards
+        env:
+          GITHUB_TOKEN: ${{ secrets.STATS_TOKEN }}
+        run: node scripts/build-stats.mjs
+
+      - name: Commit only when the numbers actually changed
+        run: |
+          set -euo pipefail
+          # stats.json holds no timestamp, so an unchanged file means unchanged
+          # numbers. Without this check the date stamp alone would produce a
+          # commit every single day.
+          if git diff --quiet -- assets/stats.json; then
+            echo "Numbers unchanged; discarding date-only churn."
+            git checkout -- assets/
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/stats-light.svg assets/stats-dark.svg assets/stats.json
+          git commit -m "Refresh profile stats"
+          git push
