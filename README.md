@@ -1,42 +1,105 @@
-<h1> Hi, I'm Roman <img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" width="30"/></h1>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.svg">
+  <img alt="Roman Khadka — payment systems, commerce infrastructure, and developer tools" src="./assets/hero-light.svg" width="100%">
+</picture>
 
-<h3> Tech close to my heart </h3>
-<p>
-  <img alt="Ruby" src="https://img.shields.io/badge/-Ruby-CC342D?style=flat-square&logo=ruby&logoColor=white" />
-  <img alt="Ruby on Rails" src="https://img.shields.io/badge/-Ruby_on_Rails-764ABC?style=flat-square&logo=rubyonrails&logoColor=white" />
-  <img alt="SpringBoot" src="https://img.shields.io/badge/SpringBoot-764ABC?style=flat-square&logo=springboot&logoColor=white" />
-  <img alt="JavaScript" src="https://img.shields.io/badge/-JavaScript-45b8d8?style=flat-square&logo=javascript&logoColor=white" />
-  <img alt="jQuery" src="https://img.shields.io/badge/-jQuery-45b8d8?style=flat-square&logo=jquery&logoColor=white" />
-  <img alt="React" src="https://img.shields.io/badge/-React-45b8d8?style=flat-square&logo=react&logoColor=white" />
-  <img alt="Turbo" src="https://img.shields.io/badge/-Turbo-45b8d8?style=flat-square&logo=turbo&logoColor=white" />
-  <img alt="Webpack" src="https://img.shields.io/badge/-Webpack-45b8d8?style=flat-square&logo=webpack&logoColor=white" />
-  <img alt="Selenium" src="https://img.shields.io/badge/-Selenium-45b8d8?style=flat-square&logo=selenium&logoColor=white" />
-  <img alt="html5" src="https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" />
-  <img alt="Sass" src="https://img.shields.io/badge/-Sass-CC6699?style=flat-square&logo=sass&logoColor=white" />
-  <img alt="Bootstrap" src="https://img.shields.io/badge/-Bootstrap-CC6699?style=flat-square&logo=bootstrap&logoColor=white" />
-  <img alt="PostgreSQL" src="https://img.shields.io/badge/-PostgreSQL-F05032?style=flat-square&logo=postgresql&logoColor=white" />
-  <img alt="Elasticsearch" src="https://img.shields.io/badge/-Elasticsearch-F05032?style=flat-square&logo=elasticsearch&logoColor=white" />
-  <img alt="Redis" src="https://img.shields.io/badge/Redis-F05032?style=flat-square&logo=redis&logoColor=white" />
-  <img alt="MongoDB" src="https://img.shields.io/badge/-MongoDB-F05032?style=flat-square&logo=mongodb&logoColor=white" />
-  <img alt="Git" src="https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white" />
-  <img alt="DigitalOcean" src="https://img.shields.io/badge/-DigitalOcean-430098?style=flat-square&logo=digitalocean&logoColor=white" />
-  <img alt="Nginx" src="https://img.shields.io/badge/-Nginx-430098?style=flat-square&logo=nginx&logoColor=white" />
-  <img alt="Heroku" src="https://img.shields.io/badge/-Heroku-430098?style=flat-square&logo=heroku&logoColor=white" />
-  <img alt="Sentry" src="https://img.shields.io/badge/-Sentry-430098?style=flat-square&logo=sentry&logoColor=white" />
-  <img alt="Postman" src="https://img.shields.io/badge/-Postman-430098?style=flat-square&logo=postman&logoColor=white" />
-  <img alt="Linux" src="https://img.shields.io/badge/-Linux-430098?style=flat-square&logo=linux&logoColor=white" />
-  <img alt="Docker" src="https://img.shields.io/badge/-Docker-430098?style=flat-square&logo=docker&logoColor=white" />
-  <img alt="RuboCop" src="https://img.shields.io/badge/-RuboCop-430098?style=flat-square&logo=rubocop&logoColor=white" />
-  <img alt="Clickup" src="https://img.shields.io/badge/-Clickup-430098?style=flat-square&logo=clickup&logoColor=white" />
-  <img alt="Notion" src="https://img.shields.io/badge/-Notion-430098?style=flat-square&logo=notion&logoColor=white" />
+<p align="center">
+  <a href="#professional-focus">Payments &amp; systems</a>
+  &nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="https://github.com/romankhadka?tab=repositories">Open-source work</a>
+  &nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="https://www.fluid.app">Fluid</a>
 </p>
 
-<p align="center"> 
-  Visitor count<br>
-  <img src="https://profile-counter.glitch.me/romankhadka/count.svg" />
+<br>
+
+## I build calm software for complicated systems—and the money moving through them.
+
+I'm a product-minded engineer at **[Fluid](https://www.fluid.app)**, working where payment orchestration, commerce infrastructure, durable Rails systems, and developer experience meet.
+
+Payment work has taught me that the happy path is the easy part. The craft lives in asynchronous state, duplicate messages, partial failure, and making recovery boring.
+
+<br>
+
+### Professional focus
+
+<table>
+  <tr>
+    <td colspan="2" valign="top">
+      <sup>01 / PAYMENT SYSTEMS</sup>
+      <h3>Money movement, engineered for reality.</h3>
+      Payment orchestration across gateways; authorization, capture, refunds, wallets, recurring billing, and the hard edges around webhooks, idempotency, and recovery.
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <sup>02 / COMMERCE ARCHITECTURE</sup>
+      <h3>Systems that stay understandable.</h3>
+      Long-lived, multi-tenant Rails applications shaped around explicit domain boundaries, safe change, and operational clarity.
+    </td>
+    <td width="50%" valign="top">
+      <sup>03 / DEVELOPER TOOLS</sup>
+      <h3>Less friction. Better attention.</h3>
+      Purpose-built terminal and macOS software for focused work, from coding-agent workflows to quiet reading tools.
+    </td>
+  </tr>
+</table>
+
+Away from the day job, I make small, opinionated tools—terminal interfaces, native macOS utilities, and experiments in programming language design.
+
+<br>
+
+### Selected work
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <sup>AGENT WORKBENCH · RUST</sup>
+      <h3><a href="https://github.com/romankhadka/yakka">Yakka ↗</a></h3>
+      A purpose-built terminal multiplexer for running Claude Code and Codex side by side, with every session isolated in its own worktree.
+    </td>
+    <td width="50%" valign="top">
+      <sup>READING ENVIRONMENT · RUST</sup>
+      <h3><a href="https://github.com/romankhadka/verso">Verso ↗</a></h3>
+      A terminal EPUB reader with vim navigation, a Kindle-style library, and durable Markdown highlights for your knowledge system.
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <sup>QUIET UTILITY · SWIFT</sup>
+      <h3><a href="https://github.com/romankhadka/lunar">Lunar ↗</a></h3>
+      A tiny, private macOS menu-bar app that paints the desktop with today's moon phase—no network, no telemetry, no noise.
+    </td>
+    <td width="50%" valign="top">
+      <sup>LANGUAGE EXPERIMENT · RUBY</sup>
+      <h3><a href="https://github.com/romankhadka/crux-lang">Crux ↗</a></h3>
+      A small expression-oriented programming language with first-class functions, lexical closures, pipes, and a tree-walk interpreter.
+    </td>
+  </tr>
+</table>
+
+<br>
+
+### Current coordinates
+
+```text
+WORK     payment orchestration · resilient commerce · architecture
+EDGE     webhooks · idempotency · asynchronous state · recovery
+TOOLS    coding-agent workflows · terminal UI · focused utilities
+STACK    Ruby / Rails · Rust · Swift · PostgreSQL · Redis
+```
+
+I also made **[context-compactor](https://github.com/romankhadka/context-compactor)**, a task-aware context monitor for Claude Code, and maintain a small **[Homebrew tap](https://github.com/romankhadka/homebrew-tap)** for the tools I ship.
+
+<br>
+
+> **Good software should explain itself.**
+>
+> The rest is naming, restraint, and care.
+
+<br>
+
+<p align="center">
+  <sub>Utah · building for the web, the terminal, and the quiet corners between.</sub>
 </p>
-
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=romankhadka&theme=dark)](https://git.io/streak-stats)
-
-<!-- ![Roman's GitHub stats](https://github-readme-stats.vercel.app/api?username=romankhadka&hide=&show=prs_merged&theme=transparent&include_all_commits=true&show_icons=true) -->
-
