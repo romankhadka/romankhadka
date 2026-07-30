@@ -4,7 +4,7 @@
   <img alt="Roman Khadka: payment systems, commerce infrastructure, and developer tools" src="./assets/hero-light.svg" width="100%">
 </picture>
 
-Engineer at **[Fluid](https://www.fluid.app)** · payment orchestration & commerce infrastructure · Utah · [romn.me](https://romn.me)
+Engineer at **[Fluid](https://www.fluid.app)** · payment orchestration & commerce infrastructure · Utah · [romn.me](https://romn.dev)
 
 I work on the part of commerce where money actually moves: authorization and capture,
 refunds, wallets, recurring billing, routing across a dozen gateways that all disagree
