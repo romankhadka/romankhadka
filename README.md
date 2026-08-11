@@ -78,13 +78,6 @@ language really needs.
 The `brew` formulas live in my
 [Homebrew tap](https://github.com/romankhadka/homebrew-tap).
 
-### Upstream
-
-Merged into [DockDoor](https://github.com/ejbills/DockDoor): collapse native macOS tabs
-into a single window preview. In review at
-[Active Merchant](https://github.com/activemerchant/active_merchant): a CyberSource REST
-commerce-indicator override.
-
 ### Toolbox
 
 ```text
