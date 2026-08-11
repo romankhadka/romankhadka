@@ -98,3 +98,4 @@ SITES       one per project · *.romn.dev
 > **Good software should explain itself.** The rest is naming, restraint, and care.
 
 If you try one of these and it breaks, open an issue. I read every one.
+For everything else: [LinkedIn](https://www.linkedin.com/in/roman-khadka/).
