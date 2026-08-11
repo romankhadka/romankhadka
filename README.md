@@ -28,6 +28,10 @@ every session sealed in its own git worktree, the whole host detachable. Rust. P
 macOS and Linux binaries on [Releases](https://github.com/romankhadka/yakka/releases) ·
 [source](https://github.com/romankhadka/yakka).
 
+```sh
+brew install romankhadka/tap/yakka
+```
+
 **[verso](https://verso.romn.dev)**. A terminal EPUB reader with vim navigation, a
 Kindle-style library, and highlights that export as real Markdown into Obsidian,
 Logseq, or Zotero. Rust. [source](https://github.com/romankhadka/verso)
@@ -38,7 +42,9 @@ brew install romankhadka/tap/verso
 
 **[Opta](https://opta.romn.dev)**. Hold Option, cycle your windows, let go. A native
 macOS window switcher with live previews and a per-application mode; the overlay
-renders in a fraction of a frame. Swift. [source](https://github.com/romankhadka/opta)
+renders in a fraction of a frame. Swift; prebuilt app on
+[Releases](https://github.com/romankhadka/opta/releases) ·
+[source](https://github.com/romankhadka/opta)
 
 **[Lunar](https://lunar.romn.dev)**. Sets your wallpaper to tonight's moon phase from
 public-domain NASA photography. No network, no telemetry, no preferences window.
@@ -47,8 +53,8 @@ Swift; [DMG on Releases](https://github.com/romankhadka/lunar/releases) ·
 
 **[focus-follows-close](https://focus-follows-close.romn.dev)**. Close an app's last
 window on macOS and focus goes nowhere. This Hammerspoon script moves it to the window
-you used before, and does nothing else. Lua.
-[source](https://github.com/romankhadka/focus-follows-close)
+you used before, and does nothing else. One-line installer and a Claude Code skill
+included. Lua. [source](https://github.com/romankhadka/focus-follows-close)
 
 **[Corekiln](https://corekiln.romn.dev)**. Holds a Mac at full load, honestly: CPU,
 GPU, or both, continuously busy. No daemon, no privileges, no bypassing the thermal
@@ -68,6 +74,16 @@ Claude Code session and suggests `/compact` at decay-aware thresholds tuned per 
 **[Crux](https://github.com/romankhadka/crux-lang)**. A small expression-oriented language
 with closures, pipes, and a tree-walk interpreter, written in Ruby to find out what a
 language really needs.
+
+The `brew` formulas live in my
+[Homebrew tap](https://github.com/romankhadka/homebrew-tap).
+
+### Upstream
+
+Merged into [DockDoor](https://github.com/ejbills/DockDoor): collapse native macOS tabs
+into a single window preview. In review at
+[Active Merchant](https://github.com/activemerchant/active_merchant): a CyberSource REST
+commerce-indicator override.
 
 ### Toolbox
 
