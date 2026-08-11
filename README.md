@@ -15,29 +15,48 @@ partial failure, and making recovery boring enough that nobody gets paged for it
 what I ship is a Rails monolith old enough to have opinions, kept understandable on
 purpose.
 
-Evenings I build small, sharp tools for the terminal and the Mac.
+Evenings I build small, sharp tools for the terminal, the Mac, and the web. Each one
+has its own site on `*.romn.dev`.
 
 ### Tools
 
 <!-- Drop a terminal GIF under Yakka and Verso when you next record one. An 8-second
      asciinema cast converted to GIF converts readers into users better than any prose. -->
 
-**[Yakka](https://github.com/romankhadka/yakka)**. Claude Code and Codex side by side in
-one terminal, every session sealed in its own git worktree, the whole host detachable.
-Rust. Prebuilt macOS and Linux binaries on
-[Releases](https://github.com/romankhadka/yakka/releases).
+**[yakka](https://yakka.romn.dev)**. Claude Code and Codex side by side in one terminal,
+every session sealed in its own git worktree, the whole host detachable. Rust. Prebuilt
+macOS and Linux binaries on [Releases](https://github.com/romankhadka/yakka/releases) ·
+[source](https://github.com/romankhadka/yakka).
 
-**[Verso](https://github.com/romankhadka/verso)**. A terminal EPUB reader with vim
-navigation, a Kindle-style library, and highlights that export as real Markdown into
-Obsidian, Logseq, or Zotero. Rust.
+**[verso](https://verso.romn.dev)**. A terminal EPUB reader with vim navigation, a
+Kindle-style library, and highlights that export as real Markdown into Obsidian,
+Logseq, or Zotero. Rust. [source](https://github.com/romankhadka/verso)
 
 ```sh
 brew install romankhadka/tap/verso
 ```
 
-**[Lunar](https://github.com/romankhadka/lunar)**. Sets your wallpaper to tonight's moon
-phase from public-domain NASA photography. No network, no telemetry, no preferences window.
-Swift; [DMG on Releases](https://github.com/romankhadka/lunar/releases).
+**[Opta](https://opta.romn.dev)**. Hold Option, cycle your windows, let go. A native
+macOS window switcher with live previews and a per-application mode; the overlay
+renders in a fraction of a frame. Swift. [source](https://github.com/romankhadka/opta)
+
+**[Lunar](https://lunar.romn.dev)**. Sets your wallpaper to tonight's moon phase from
+public-domain NASA photography. No network, no telemetry, no preferences window.
+Swift; [DMG on Releases](https://github.com/romankhadka/lunar/releases) ·
+[source](https://github.com/romankhadka/lunar)
+
+**[focus-follows-close](https://focus-follows-close.romn.dev)**. Close an app's last
+window on macOS and focus goes nowhere. This Hammerspoon script moves it to the window
+you used before, and does nothing else. Lua.
+[source](https://github.com/romankhadka/focus-follows-close)
+
+**[Corekiln](https://corekiln.romn.dev)**. Holds a Mac at full load, honestly: CPU,
+GPU, or both, continuously busy. No daemon, no privileges, no bypassing the thermal
+protections. C. [source](https://github.com/romankhadka/corekiln)
+
+**[Worldloom](https://worldloom.romn.dev)**. A persistent living tapestry woven in
+real time from seven public signals and three anonymous visitor gestures. Elixir,
+Phoenix LiveView, Canvas 2D. [source](https://github.com/romankhadka/worldloom)
 
 **[context-compactor](https://github.com/romankhadka/context-compactor)**. Watches a
 Claude Code session and suggests `/compact` at decay-aware thresholds tuned per task type.
@@ -53,9 +72,10 @@ language really needs.
 ### Toolbox
 
 ```text
-LANGUAGES   Ruby · Rust · Swift
+LANGUAGES   Ruby · Rust · Swift · Elixir · C
 SYSTEMS     Rails · PostgreSQL · Redis · Sidekiq
 INTERESTS   idempotency · async state · partial failure · terminal UI
+SITES       one per project · *.romn.dev
 ```
 
 ### Activity
