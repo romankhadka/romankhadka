@@ -23,6 +23,16 @@ has its own site on `*.romn.dev`.
 <!-- Drop a terminal GIF under Yakka and Verso when you next record one. An 8-second
      asciinema cast converted to GIF converts readers into users better than any prose. -->
 
+**[Lunar](https://lunar.romn.dev)**. Sets your wallpaper to tonight's moon phase from
+public-domain NASA photography. No network, no telemetry, no preferences window.
+Swift; [DMG on Releases](https://github.com/romankhadka/lunar/releases) ·
+[source](https://github.com/romankhadka/lunar)
+
+**[clk](https://clk.romn.dev)**. A clock with no clock in it: tens of thousands of
+squares roam a canvas at their own speeds, and each minute a few are summoned to
+cross the screen and settle into the digits. TypeScript, WebGL2, no dependencies.
+[source](https://github.com/romankhadka/clk)
+
 **[yakka](https://yakka.romn.dev)**. Claude Code and Codex side by side in one terminal,
 every session sealed in its own git worktree, the whole host detachable. Rust. Prebuilt
 macOS and Linux binaries on [Releases](https://github.com/romankhadka/yakka/releases) ·
@@ -45,11 +55,6 @@ macOS window switcher with live previews and a per-application mode; the overlay
 renders in a fraction of a frame. Swift; prebuilt app on
 [Releases](https://github.com/romankhadka/opta/releases) ·
 [source](https://github.com/romankhadka/opta)
-
-**[Lunar](https://lunar.romn.dev)**. Sets your wallpaper to tonight's moon phase from
-public-domain NASA photography. No network, no telemetry, no preferences window.
-Swift; [DMG on Releases](https://github.com/romankhadka/lunar/releases) ·
-[source](https://github.com/romankhadka/lunar)
 
 **[focus-follows-close](https://focus-follows-close.romn.dev)**. Close an app's last
 window on macOS and focus goes nowhere. This Hammerspoon script moves it to the window
