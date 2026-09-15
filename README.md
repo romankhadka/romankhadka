@@ -65,6 +65,12 @@ included. Lua. [source](https://github.com/romankhadka/focus-follows-close)
 GPU, or both, continuously busy. No daemon, no privileges, no bypassing the thermal
 protections. C. [source](https://github.com/romankhadka/corekiln)
 
+**[Curv](https://curv.romn.dev)**. Draw a fan curve for an Apple Silicon Mac and a
+small root helper keeps the fans on it, even when the app is closed. Automatic,
+custom curve, or max; macOS keeps its thermal protections. Swift; prebuilt app on
+[Releases](https://github.com/romankhadka/curv/releases) ·
+[source](https://github.com/romankhadka/curv)
+
 **[Worldloom](https://worldloom.romn.dev)**. A persistent living tapestry woven in
 real time from seven public signals and three anonymous visitor gestures. Elixir,
 Phoenix LiveView, Canvas 2D. [source](https://github.com/romankhadka/worldloom)
